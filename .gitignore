@@ -1,0 +1,128 @@
+USE [dbOlSoftware]
+GO
+/****** Object:  StoredProcedure [dbo].[GetAllUsers]    Script Date: 26/09/2020 3:01:33 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[GetAllUsers] 
+	AS
+
+	Select * from [User]
+
+-----
+
+/****** Object:  StoredProcedure [dbo].[GetUserId]    Script Date: 26/09/2020 3:01:58 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[GetUserId]
+	-- Add the parameters for the stored procedure here
+	@Id int
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	Select * from [User] where id = @Id
+END
+
+
+-------
+
+USE [dbOlSoftware]
+GO
+/****** Object:  StoredProcedure [dbo].[InsertUser]    Script Date: 26/09/2020 3:02:13 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[InsertUser] 
+	-- Add the parameters for the stored procedure here
+	@name varchar(100),
+	@phone varchar(100),
+	@addresss varchar(100)
+AS
+BEGIN
+	
+	SET NOCOUNT ON;
+
+	insert into [User] (Name, Phone, Address)
+	values (@name, @phone, @addresss)
+END
+
+
+----
+
+
+USE [dbOlSoftware]
+GO
+/****** Object:  StoredProcedure [dbo].[DeleteUser]    Script Date: 26/09/2020 3:02:37 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[DeleteUser]
+	-- Add the parameters for the stored procedure here
+	@Id int
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+	delete [User]
+	where Id = @Id
+END
+
+
+---------
+
+
+USE [dbOlSoftware]
+GO
+/****** Object:  StoredProcedure [dbo].[InsertUser]    Script Date: 26/09/2020 3:02:52 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[InsertUser] 
+	-- Add the parameters for the stored procedure here
+	@name varchar(100),
+	@phone varchar(100),
+	@addresss varchar(100)
+AS
+BEGIN
+	
+	SET NOCOUNT ON;
+
+	insert into [User] (Name, Phone, Address)
+	values (@name, @phone, @addresss)
+END
+
+
+----
+
+
+USE [dbOlSoftware]
+GO
+/****** Object:  StoredProcedure [dbo].[UpdateUser]    Script Date: 26/09/2020 3:03:06 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[UpdateUser] 
+	-- Add the parameters for the stored procedure here
+	@id int,
+	@name varchar(100),
+	@phone varchar(100),
+	@addresss varchar(100)
+AS
+
+	UPDATE [User] SET Name = @name, Phone = @phone, Address = @addresss
+	WHERE Id = @id
+
+

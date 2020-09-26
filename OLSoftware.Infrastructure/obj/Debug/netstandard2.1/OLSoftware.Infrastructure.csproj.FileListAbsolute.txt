@@ -1,0 +1,12 @@
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Infrastructure\bin\Debug\netstandard2.1\OLSoftware.Infrastructure.deps.json
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Infrastructure\bin\Debug\netstandard2.1\OLSoftware.Infrastructure.dll
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Infrastructure\bin\Debug\netstandard2.1\OLSoftware.Infrastructure.pdb
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Infrastructure\bin\Debug\netstandard2.1\OLSoftware.Core.dll
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Infrastructure\bin\Debug\netstandard2.1\OLSoftware.Core.pdb
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Infrastructure\obj\Debug\netstandard2.1\OLSoftware.Infrastructure.csprojAssemblyReference.cache
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Infrastructure\obj\Debug\netstandard2.1\OLSoftware.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Infrastructure\obj\Debug\netstandard2.1\OLSoftware.Infrastructure.AssemblyInfo.cs
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Infrastructure\obj\Debug\netstandard2.1\OLSoftware.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Infrastructure\obj\Debug\netstandard2.1\OLSoftware.Infrastructure.csproj.CopyComplete
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Infrastructure\obj\Debug\netstandard2.1\OLSoftware.Infrastructure.dll
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Infrastructure\obj\Debug\netstandard2.1\OLSoftware.Infrastructure.pdb
