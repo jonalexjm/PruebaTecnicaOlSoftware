@@ -6,22 +6,44 @@ namespace OLSoftware.Infrastructure.Data.Seed
     using System.Linq;
     using System.Threading.Tasks;
     using System.Collections.Generic;
+    using Microsoft.AspNetCore.Identity;
 
     public class SeedDb
     {
         private readonly OlsoftwareContext context;
+        private readonly UserManager<UserEnti> userManager;
         private Random random;
         private DateTime fechaActual = DateTime.Now;
 
-        public SeedDb(OlsoftwareContext context)
+        public SeedDb(OlsoftwareContext context, UserManager<UserEnti> userManager)
         {
             this.context = context;
+            this.userManager = userManager;
             this.random = new Random();
         }
 
         public async Task SeedAsync()
         {
             await this.context.Database.EnsureCreatedAsync();
+
+            var user = await this.userManager.FindByEmailAsync("jhonalexjm@gmail.com");
+            if (user == null)
+            {
+                user = new UserEnti
+                {
+                    FirstName = "john",
+                    LastName = "Jimenez",
+                    Email = "jhonalexjm@gmail.com",
+                    UserName = "jhonalexjm@gmail.com"
+                };
+                var result = await this.userManager.CreateAsync(user, "123456");
+                if (result != IdentityResult.Success)
+                {
+                    throw new InvalidOperationException("Could not create the user in seeder");
+                }
+
+            }
+
 
             if (!this.context.User.Any())
             {

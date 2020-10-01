@@ -1,6 +1,7 @@
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Core\bin\Debug\netstandard2.1\OLSoftware.Core.deps.json
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Core\bin\Debug\netstandard2.1\OLSoftware.Core.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Core\bin\Debug\netstandard2.1\OLSoftware.Core.pdb
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Core\obj\Debug\netstandard2.1\OLSoftware.Core.csprojAssemblyReference.cache
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Core\obj\Debug\netstandard2.1\OLSoftware.Core.AssemblyInfoInputs.cache
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Core\obj\Debug\netstandard2.1\OLSoftware.Core.AssemblyInfo.cs
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.Core\obj\Debug\netstandard2.1\OLSoftware.Core.csproj.CoreCompileInputs.cache

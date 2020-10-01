@@ -27,5 +27,9 @@
     <ProjectReference Include="..\OLSoftware.Infrastructure\OLSoftware.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ExportedFile\" />
+  </ItemGroup>
+
 
 </Project>

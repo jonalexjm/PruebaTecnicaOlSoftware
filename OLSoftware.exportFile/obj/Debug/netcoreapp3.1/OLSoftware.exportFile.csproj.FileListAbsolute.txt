@@ -1,3 +1,8 @@
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\OLSoftware.exportFile.csprojAssemblyReference.cache
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\OLSoftware.exportFile.AssemblyInfoInputs.cache
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\OLSoftware.exportFile.AssemblyInfo.cs
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\OLSoftware.exportFile.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\OLSoftware.exportFile.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -7,6 +12,9 @@ C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\De
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\OLSoftware.exportFile.runtimeconfig.dev.json
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\OLSoftware.exportFile.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\OLSoftware.exportFile.pdb
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
@@ -32,6 +40,8 @@ C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\De
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
@@ -147,11 +157,6 @@ C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\De
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\OLSoftware.Infrastructure.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\OLSoftware.Infrastructure.pdb
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\bin\Debug\netcoreapp3.1\OLSoftware.Core.pdb
-C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\OLSoftware.exportFile.csprojAssemblyReference.cache
-C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\OLSoftware.exportFile.AssemblyInfoInputs.cache
-C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\OLSoftware.exportFile.AssemblyInfo.cs
-C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\OLSoftware.exportFile.csproj.CoreCompileInputs.cache
-C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\OLSoftware.exportFile.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\OLSoftware.exportFile.RazorTargetAssemblyInfo.cache
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\OLSoftware.exportFile.csproj.CopyComplete
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OLSoftware.exportFile\obj\Debug\netcoreapp3.1\staticwebassets\OLSoftware.exportFile.StaticWebAssets.Manifest.cache

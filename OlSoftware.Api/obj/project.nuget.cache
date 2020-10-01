@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "H9eQxo116j5iKaag4gDVmkSj64xvAW3bopy0VWsViimhaDim8+ziVW4dPC5iCAJpOT8kqwhwK1+eiUzQ7X9GOw==",
+  "dgSpecHash": "BHMKtBOk3AQyyesfs3cyV/TPIoDXSBJj6srzT3S/wHMan+RCIKfKGMmEtzAkpcfUgTjwXzdEK3VKSjevyvah0g==",
   "success": true,
   "projectFilePath": "C:\\Users\\desarrollo\\source\\repos\\SolutionOLSoftware\\OlSoftware.Api\\OlSoftware.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
+    "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",
+    "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.8\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.8.nupkg.sha512",
     "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.8\\microsoft.aspnetcore.jsonpatch.3.1.8.nupkg.sha512",
     "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.8\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.8.nupkg.sha512",
     "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
@@ -24,6 +27,8 @@
     "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.8\\microsoft.extensions.configuration.binder.3.1.8.nupkg.sha512",
     "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.8\\microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512",
     "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.extensions.identity.core\\3.1.8\\microsoft.extensions.identity.core.3.1.8.nupkg.sha512",
+    "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.8\\microsoft.extensions.identity.stores.3.1.8.nupkg.sha512",
     "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.extensions.logging\\3.1.8\\microsoft.extensions.logging.3.1.8.nupkg.sha512",
     "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\desarrollo\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",

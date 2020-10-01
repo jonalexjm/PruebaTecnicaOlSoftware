@@ -7,6 +7,9 @@ C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\net
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\OlSoftware.Api.runtimeconfig.dev.json
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\OlSoftware.Api.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\OlSoftware.Api.pdb
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
@@ -24,6 +27,8 @@ C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\net
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\desarrollo\source\repos\SolutionOLSoftware\OlSoftware.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll

@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using OLSoftware.Core.Entities;
 
 namespace OLSoftware.Infrastructure.Data
 {
-    public class OlsoftwareContext : DbContext
+    public class OlsoftwareContext : IdentityDbContext<UserEnti>
     {
         public OlsoftwareContext(DbContextOptions<OlsoftwareContext> options) : base(options)
         {

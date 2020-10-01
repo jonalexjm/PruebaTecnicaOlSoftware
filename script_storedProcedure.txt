@@ -80,7 +80,17 @@ END
 
 
 ---------
-
+ALTER CREATE[dbo].[InfoProyectos]
+	
+AS
+BEGIN
+	
+	SET NOCOUNT ON;
+	select us.Name, us.Phone, p.Name as project, p.StartDate, p.EndDate, p.Price, p.NumberHours, userUP.Status
+	from [User] us join UserProject userUP
+	on us.Id = userUP.UserId join Project p
+	on userUP.Id = p.Id;
+END
 
 USE [dbOlSoftware]
 GO

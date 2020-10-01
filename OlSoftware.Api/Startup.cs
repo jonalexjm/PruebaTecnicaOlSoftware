@@ -8,6 +8,8 @@ using OLSoftware.Infrastructure.Data;
 using OLSoftware.Infrastructure.Data.Seed;
 using OLSoftware.Core.Repositories;
 using OLSoftware.Infrastructure.Repositories;
+using OLSoftware.Core.Entities;
+using Microsoft.AspNetCore.Identity;
 
 namespace OlSoftware.Api
 {
@@ -23,6 +25,20 @@ namespace OlSoftware.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+              services.AddIdentity<UserEnti, IdentityRole>(cfg =>
+              {
+                  cfg.User.RequireUniqueEmail = true;
+                  cfg.Password.RequireDigit = false;
+                  cfg.Password.RequiredUniqueChars = 0;
+                  cfg.Password.RequireLowercase = false;
+                  cfg.Password.RequireNonAlphanumeric = false;
+                  cfg.Password.RequireUppercase = false;
+              })
+          .AddEntityFrameworkStores<OlsoftwareContext>();
+
+
+
+
             services.AddControllers();
 
             services.AddDbContext<OlsoftwareContext>(option =>

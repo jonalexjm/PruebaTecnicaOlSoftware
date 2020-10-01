@@ -5,9 +5,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using OLSoftware.Core.Entities;
+using OLSoftware.FrontEnd.Helpers;
+using OLSoftware.Infrastructure.Data;
 
 namespace OLSoftware.FrontEnd
 {
@@ -23,7 +28,26 @@ namespace OLSoftware.FrontEnd
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddIdentity<UserEnti, IdentityRole>(cfg =>
+            {
+                cfg.User.RequireUniqueEmail = true;
+                cfg.Password.RequireDigit = false;
+                cfg.Password.RequiredUniqueChars = 0;
+                cfg.Password.RequireLowercase = false;
+                cfg.Password.RequireNonAlphanumeric = false;
+                cfg.Password.RequireUppercase = false;
+            })
+             .AddEntityFrameworkStores<OlsoftwareContext>();
+
             services.AddControllersWithViews();
+
+            services.AddDbContext<OlsoftwareContext>(option =>
+            {
+                option.UseSqlServer(Configuration.GetConnectionString("SqlServerConnection"));
+                //configuracion del servidor
+            });
+
+            services.AddScoped<IUserHelper, UserHelper>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

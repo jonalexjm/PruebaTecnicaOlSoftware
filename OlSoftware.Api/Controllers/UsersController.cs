@@ -42,11 +42,17 @@ namespace OlSoftware.Api.Controllers
 
         // POST api/values
         [HttpPost]
-        public async Task Post([FromBody] User value)
+        public async Task<object> Post([FromBody] User value)
         {
-            await _userRepository.InsertUser(value);
+             await _userRepository.InsertUser(value);
 
-           
+            var response = new
+            {
+                status = "OK"
+            };
+
+
+            return response;
         }
 
 
@@ -60,7 +66,7 @@ namespace OlSoftware.Api.Controllers
 
         // POST api/values
         [HttpPut("{id}")]
-        public async Task Update([FromBody] User value, int id)
+        public async Task<object> Update([FromBody] User value, int id)
         {
             var resultUsers = await _userRepository.GetIdUser(id);
 
@@ -70,7 +76,14 @@ namespace OlSoftware.Api.Controllers
                 await _userRepository.UpdateUser(value);
             }
 
-           
+
+            var response = new
+            {
+                status = "OK"
+            };
+
+
+            return response;
         }
 
         

@@ -30,6 +30,29 @@ namespace OLSoftware.exportFile.Utils
 
         }
 
+        public void AddListaProyectos(List<ProjectViewModel> listProject)
+        {
+            CreateDirectory();
+
+            string nombre = GetNameFile();
+            string cadena = "";
+            foreach (var item in listProject)
+            {
+               
+                cadena = cadena + $"Nombre: {item.Name}, Telefono: {item.Phone}, " +
+                                   $"Nombre Proyecto {item.project}, Inicio {item.StartDate}, Final: {item.EndDate} +" +
+                                   $"Precion: {item.Price}, Numero Horas: {item.NumberHours}, status; {item.Status} + {Environment.NewLine} ";
+
+                
+            }
+
+            StreamWriter sw = new StreamWriter(Path + "/" + nombre, true);
+
+            sw.Write(cadena);
+            sw.Close();
+
+        }
+
 
         #region Helper
 
@@ -37,7 +60,7 @@ namespace OLSoftware.exportFile.Utils
         {
             string nombre = "";
 
-            nombre = "log_" + DateTime.Now.Day + "_" + DateTime.Now.Month + "_" + DateTime.Now.Year + ".log";
+            nombre = "Proyectos_" + DateTime.Now.Day + "_" + DateTime.Now.Month + "_" + DateTime.Now.Year + ".log";
 
             return nombre;
         }
@@ -60,6 +83,8 @@ namespace OLSoftware.exportFile.Utils
                 return false;
             }
         }
+
+       
 
         #endregion
     }
